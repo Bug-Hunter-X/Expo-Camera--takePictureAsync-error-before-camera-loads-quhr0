@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` API and attempting to access the `takePictureAsync` method before the camera has finished loading. This can happen if you call `takePictureAsync` too early in your component's lifecycle, before the `cameraRef` has been properly initialized.
